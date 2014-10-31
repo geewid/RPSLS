@@ -1,9 +1,11 @@
 package info.geewid.rpsls;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class SelectorActivity extends Activity {
 
@@ -30,5 +32,10 @@ public class SelectorActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void startArcade(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
 	}
 }

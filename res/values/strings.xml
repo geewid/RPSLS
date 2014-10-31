@@ -8,6 +8,6 @@
     <string name="login">Login</string>
     <string name="btn_single">Arcade</string>
     <string name="btn_multi">PVP</string>
-    <string name="txt_select">Choose the game mode</string>
+    <string name="txt_select">Choose the mode</string>
 
 </resources>
