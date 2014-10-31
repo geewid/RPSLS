@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.geewid.rpsls.MainActivity" >
+
+    <item
+        android:id="@+id/action_arcade_reset"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_arcade_reset"/>
+    
+    <item
+        android:id="@+id/action_rules"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_rules"/>
+
+</menu>

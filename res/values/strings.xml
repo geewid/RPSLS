@@ -4,6 +4,7 @@
     <string name="app_name">RPSLS</string>
     <string name="app_name_arcade">RPSLS | Arcade Mode</string>
     <string name="app_name_login">RPSLS | Login Screen</string>
+    <string name="app_name_rules">RPSLS | Rules</string>
     <string name="action_settings">Settings</string>
     <string name="email">E-Mail</string>
     <string name="password">Password</string>
@@ -11,5 +12,14 @@
     <string name="btn_single">Arcade</string>
     <string name="btn_multi">PVP</string>
     <string name="txt_select">Choose the mode</string>
+    <string name="player_score">0</string>
+    <string name="ai_score">0</string>
+    <string name="rock_desc">Rock</string>
+    <string name="paper_desc">Paper</string>
+    <string name="scissors_desc">Scissors</string>
+    <string name="lizard_desc">Lizard</string>
+    <string name="spock_desc">Spock</string>
+    <string name="action_arcade_reset">Reset score</string>
+    <string name="action_rules">Rules</string>
 
 </resources>

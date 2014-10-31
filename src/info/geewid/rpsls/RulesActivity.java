@@ -5,15 +5,14 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
-public class LoginActivity extends Activity {
+
+public class RulesActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_login);
+		setContentView(R.layout.activity_rules);
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#0169b2")));
 	}
@@ -36,9 +35,4 @@ public class LoginActivity extends Activity {
 //		}
 //		return super.onOptionsItemSelected(item);
 //	}
-	
-	public void bazinga(View view) {
-		Toast.makeText(getApplicationContext(), "BAZINGA!",
-				   Toast.LENGTH_LONG).show();
-	}
 }
