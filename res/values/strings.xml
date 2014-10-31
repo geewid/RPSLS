@@ -6,5 +6,8 @@
     <string name="email">E-Mail</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="btn_single">Arcade</string>
+    <string name="btn_multi">PVP</string>
+    <string name="txt_select">Choose the game mode</string>
 
 </resources>
