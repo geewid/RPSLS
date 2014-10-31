@@ -38,4 +38,9 @@ public class SelectorActivity extends Activity {
 		Intent intent = new Intent(this, MainActivity.class);
 		startActivity(intent);
 	}
+	
+	public void startLogin(View view) {
+		Intent intent = new Intent(this, LoginActivity.class);
+		startActivity(intent);
+	}
 }

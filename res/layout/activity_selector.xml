@@ -5,7 +5,8 @@
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
     android:orientation="vertical"
-    android:gravity="center" >
+    android:gravity="center"
+    android:background="@color/bg" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,6 +19,7 @@
             android:layout_height="fill_parent"
             android:gravity="center"
             android:text="@string/txt_select"
+            android:textColor="@color/white"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </LinearLayout>
@@ -27,13 +29,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_single"
-        android:onClick="startArcade" />
+        android:textColor="@color/white"
+        android:onClick="startArcade"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="5dp" />
 
     <Button
         android:id="@+id/btn_multi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_multi" />
+        android:text="@string/btn_multi"
+        android:textColor="@color/white"
+        android:onClick="startLogin"
+        android:background="@drawable/buttonshape"
+         />
 
 
 </LinearLayout>
