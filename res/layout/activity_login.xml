@@ -3,24 +3,33 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg" >
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="textPassword" />
 
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="5dp"
         android:text="@string/login" />
 
 </LinearLayout>
